@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17493EEC20AE776000AB77BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17493EEB20AE776000AB77BA /* AppDelegate.m */; };
+		17493EEF20AE776000AB77BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17493EEE20AE776000AB77BA /* main.m */; };
+		17493EF120AE776000AB77BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17493EF020AE776000AB77BA /* Assets.xcassets */; };
+		17493EF420AE776000AB77BA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17493EF220AE776000AB77BA /* MainMenu.xib */; };
+		17493EFF20AE776000AB77BA /* Burn_in_reportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17493EFE20AE776000AB77BA /* Burn_in_reportTests.m */; };
+		17493F0A20AE776000AB77BA /* Burn_in_reportUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17493F0920AE776000AB77BA /* Burn_in_reportUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17493EFB20AE776000AB77BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17493EDF20AE776000AB77BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17493EE620AE776000AB77BA;
+			remoteInfo = "Burn-in-report";
+		};
+		17493F0620AE776000AB77BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17493EDF20AE776000AB77BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17493EE620AE776000AB77BA;
+			remoteInfo = "Burn-in-report";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17493EE720AE776000AB77BA /* Burn-in-report.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Burn-in-report.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17493EEA20AE776000AB77BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17493EEB20AE776000AB77BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17493EEE20AE776000AB77BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17493EF020AE776000AB77BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17493EF320AE776000AB77BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		17493EF520AE776000AB77BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17493EFA20AE776000AB77BA /* Burn-in-reportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Burn-in-reportTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17493EFE20AE776000AB77BA /* Burn_in_reportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Burn_in_reportTests.m; sourceTree = "<group>"; };
+		17493F0020AE776000AB77BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17493F0520AE776000AB77BA /* Burn-in-reportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Burn-in-reportUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17493F0920AE776000AB77BA /* Burn_in_reportUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Burn_in_reportUITests.m; sourceTree = "<group>"; };
+		17493F0B20AE776000AB77BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17493EE420AE776000AB77BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17493EF720AE776000AB77BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17493F0220AE776000AB77BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17493EDE20AE776000AB77BA = {
+			isa = PBXGroup;
+			children = (
+				17493EE920AE776000AB77BA /* Burn-in-report */,
+				17493EFD20AE776000AB77BA /* Burn-in-reportTests */,
+				17493F0820AE776000AB77BA /* Burn-in-reportUITests */,
+				17493EE820AE776000AB77BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17493EE820AE776000AB77BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17493EE720AE776000AB77BA /* Burn-in-report.app */,
+				17493EFA20AE776000AB77BA /* Burn-in-reportTests.xctest */,
+				17493F0520AE776000AB77BA /* Burn-in-reportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17493EE920AE776000AB77BA /* Burn-in-report */ = {
+			isa = PBXGroup;
+			children = (
+				17493EEA20AE776000AB77BA /* AppDelegate.h */,
+				17493EEB20AE776000AB77BA /* AppDelegate.m */,
+				17493EF020AE776000AB77BA /* Assets.xcassets */,
+				17493EF220AE776000AB77BA /* MainMenu.xib */,
+				17493EF520AE776000AB77BA /* Info.plist */,
+				17493EED20AE776000AB77BA /* Supporting Files */,
+			);
+			path = "Burn-in-report";
+			sourceTree = "<group>";
+		};
+		17493EED20AE776000AB77BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17493EEE20AE776000AB77BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17493EFD20AE776000AB77BA /* Burn-in-reportTests */ = {
+			isa = PBXGroup;
+			children = (
+				17493EFE20AE776000AB77BA /* Burn_in_reportTests.m */,
+				17493F0020AE776000AB77BA /* Info.plist */,
+			);
+			path = "Burn-in-reportTests";
+			sourceTree = "<group>";
+		};
+		17493F0820AE776000AB77BA /* Burn-in-reportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17493F0920AE776000AB77BA /* Burn_in_reportUITests.m */,
+				17493F0B20AE776000AB77BA /* Info.plist */,
+			);
+			path = "Burn-in-reportUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17493EE620AE776000AB77BA /* Burn-in-report */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17493F0E20AE776000AB77BA /* Build configuration list for PBXNativeTarget "Burn-in-report" */;
+			buildPhases = (
+				17493EE320AE776000AB77BA /* Sources */,
+				17493EE420AE776000AB77BA /* Frameworks */,
+				17493EE520AE776000AB77BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Burn-in-report";
+			productName = "Burn-in-report";
+			productReference = 17493EE720AE776000AB77BA /* Burn-in-report.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17493EF920AE776000AB77BA /* Burn-in-reportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17493F1120AE776000AB77BA /* Build configuration list for PBXNativeTarget "Burn-in-reportTests" */;
+			buildPhases = (
+				17493EF620AE776000AB77BA /* Sources */,
+				17493EF720AE776000AB77BA /* Frameworks */,
+				17493EF820AE776000AB77BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17493EFC20AE776000AB77BA /* PBXTargetDependency */,
+			);
+			name = "Burn-in-reportTests";
+			productName = "Burn-in-reportTests";
+			productReference = 17493EFA20AE776000AB77BA /* Burn-in-reportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17493F0420AE776000AB77BA /* Burn-in-reportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17493F1420AE776000AB77BA /* Build configuration list for PBXNativeTarget "Burn-in-reportUITests" */;
+			buildPhases = (
+				17493F0120AE776000AB77BA /* Sources */,
+				17493F0220AE776000AB77BA /* Frameworks */,
+				17493F0320AE776000AB77BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17493F0720AE776000AB77BA /* PBXTargetDependency */,
+			);
+			name = "Burn-in-reportUITests";
+			productName = "Burn-in-reportUITests";
+			productReference = 17493F0520AE776000AB77BA /* Burn-in-reportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17493EDF20AE776000AB77BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = " Fish";
+				TargetAttributes = {
+					17493EE620AE776000AB77BA = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					17493EF920AE776000AB77BA = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17493EE620AE776000AB77BA;
+					};
+					17493F0420AE776000AB77BA = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17493EE620AE776000AB77BA;
+					};
+				};
+			};
+			buildConfigurationList = 17493EE220AE776000AB77BA /* Build configuration list for PBXProject "Burn-in-report" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17493EDE20AE776000AB77BA;
+			productRefGroup = 17493EE820AE776000AB77BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17493EE620AE776000AB77BA /* Burn-in-report */,
+				17493EF920AE776000AB77BA /* Burn-in-reportTests */,
+				17493F0420AE776000AB77BA /* Burn-in-reportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17493EE520AE776000AB77BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17493EF120AE776000AB77BA /* Assets.xcassets in Resources */,
+				17493EF420AE776000AB77BA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17493EF820AE776000AB77BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17493F0320AE776000AB77BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17493EE320AE776000AB77BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17493EEF20AE776000AB77BA /* main.m in Sources */,
+				17493EEC20AE776000AB77BA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17493EF620AE776000AB77BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17493EFF20AE776000AB77BA /* Burn_in_reportTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17493F0120AE776000AB77BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17493F0A20AE776000AB77BA /* Burn_in_reportUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17493EFC20AE776000AB77BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17493EE620AE776000AB77BA /* Burn-in-report */;
+			targetProxy = 17493EFB20AE776000AB77BA /* PBXContainerItemProxy */;
+		};
+		17493F0720AE776000AB77BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17493EE620AE776000AB77BA /* Burn-in-report */;
+			targetProxy = 17493F0620AE776000AB77BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17493EF220AE776000AB77BA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17493EF320AE776000AB77BA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17493F0C20AE776000AB77BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.11;
+			};
+			name = Debug;
+		};
+		17493F0D20AE776000AB77BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx10.11;
+			};
+			name = Release;
+		};
+		17493F0F20AE776000AB77BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Burn-in-report/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "fish.Burn-in-report";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17493F1020AE776000AB77BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Burn-in-report/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "fish.Burn-in-report";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17493F1220AE776000AB77BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Burn-in-reportTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fish.Burn-in-reportTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Burn-in-report.app/Contents/MacOS/Burn-in-report";
+			};
+			name = Debug;
+		};
+		17493F1320AE776000AB77BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Burn-in-reportTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fish.Burn-in-reportTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Burn-in-report.app/Contents/MacOS/Burn-in-report";
+			};
+			name = Release;
+		};
+		17493F1520AE776000AB77BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Burn-in-reportUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fish.Burn-in-reportUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Burn-in-report";
+			};
+			name = Debug;
+		};
+		17493F1620AE776000AB77BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Burn-in-reportUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fish.Burn-in-reportUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Burn-in-report";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17493EE220AE776000AB77BA /* Build configuration list for PBXProject "Burn-in-report" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17493F0C20AE776000AB77BA /* Debug */,
+				17493F0D20AE776000AB77BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17493F0E20AE776000AB77BA /* Build configuration list for PBXNativeTarget "Burn-in-report" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17493F0F20AE776000AB77BA /* Debug */,
+				17493F1020AE776000AB77BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17493F1120AE776000AB77BA /* Build configuration list for PBXNativeTarget "Burn-in-reportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17493F1220AE776000AB77BA /* Debug */,
+				17493F1320AE776000AB77BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17493F1420AE776000AB77BA /* Build configuration list for PBXNativeTarget "Burn-in-reportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17493F1520AE776000AB77BA /* Debug */,
+				17493F1620AE776000AB77BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17493EDF20AE776000AB77BA /* Project object */;
+}
